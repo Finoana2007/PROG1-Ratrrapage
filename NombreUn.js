@@ -6,6 +6,11 @@ function NombreUn(T) {
             compteur++;
         }
     }
-    
+
   return compteur;
 }
+
+console.log(NombreUn([1, 0, 1, 1, 0, 1])); 
+console.log(NombreUn([0, 0, 0, 0]));
+console.log(NombreUn([1, 1, 1, 1, 1]));
+console.log(NombreUn([1, 0, 1, 0, 1, 0, 1]));
