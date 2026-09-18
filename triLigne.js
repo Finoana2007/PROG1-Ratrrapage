@@ -11,3 +11,21 @@ function triLignes(M) {
 
     return M;
 }
+
+
+const M = [
+    [0, 0, 1, 1],
+    [0, 0, 0, 1],
+    [1, 1, 1, 1],
+    [0, 0, 0, 0]
+];
+
+console.log("Avant le tri :");
+console.log(M);
+
+triLignes(M);
+
+console.log("Après le tri :");
+console.log(M);
+
+triLignes(M);
